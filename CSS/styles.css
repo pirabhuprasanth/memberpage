@@ -166,17 +166,12 @@ img.logo {
   z-index: 1;
 }
 
-.circle{
+img.circle{
   width: 60px;
   height: 60px;
   z-index: 2;
-}
-.box1{
-  position: absolute;
-  margin-top: px;
+  top: 90px;
+  bottom: 30px;
 }
 
-.logo1{
-  position: absolute;
-}
-</style> 
+</style>
