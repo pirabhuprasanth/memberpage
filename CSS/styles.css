@@ -19,9 +19,30 @@ body {
   opacity: 0.4; /* Adjust the opacity as needed */
 }
 
+.search-container{
+  position: relative;
+  top: 101px;
+  left: 499px;
+  width: 160px;  
+  display: flex;
+  align-items: center;
+}
 
+.search-container input[type="text"]{
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
   
-  .main-heading {
+}
+
+.search-container button{
+  position: relative;
+  left: 170px;
+  background-color: #f2f2f2;
+  cursor: pointer; 
+}
+
+ .main-heading {
     position: absolute;
     left: 50px;
     top: calc(140.3px + 5%);
@@ -56,41 +77,6 @@ body {
     left: 50px;
     z-index: 10;
     opacity: 1;
-  }
-  
-  .container {
-    position: relative;
-    float: left;
-    left: 5in;
-    top: 40px;
-    margin-top: 63px;
-    opacity: 1;
-    z-index: 10;
-  
-  }
-  
-  .search-button {
-    cursor: pointer;
-    width: 25px;
-    height: 25px;
-    text-align: left;
-    position: absolute;
-    float: right;
-    left: 189px;
-    opacity: 1;
-    z-index: 10;
-    
-  
-  }
-  
-  .fas {
-    position: relative;
-    left: 194px;
-    bottom: 17px;
-    text-align: center;
-    cursor: pointer;
-    opacity: 1;
-    z-index: 10;
   }
   
   .side-heading {
@@ -151,16 +137,19 @@ body {
     z-index: 10;
     
   }
-  .about a,
-  .safeguard a {
-      color: #DDB445; 
-      text-decoration: underline; 
-  }
-  .about a:hover,
-  .safeguard a:hover {
-      color: white; 
-      text-decoration: underline; 
-  }
+  .home a:hover,
+.about a:hover,
+.safeguard a {
+    color: #DDB445; 
+    text-decoration: underline; 
+}
+.home a,
+.about a:hover,
+.safeguard a:hover {
+    color: white; 
+    text-decoration: underline; 
+}
+
   
 
   
@@ -189,13 +178,14 @@ body {
   }
   .white-circle {
     position: absolute;
-    bottom: 70px;
+    bottom: 36px;
     right: 93px;
     width: 68px;
     height: 68px;
     background-color: white;
     border-radius: 50%;
     z-index: 1;
+    top: 645px;
   }
   
   img.circle {
@@ -203,8 +193,10 @@ body {
     width: 60px;
     height: 60px;
     z-index: 2;
-    top: 642.5px;
+    top: 6px;
     right:96px; 
+    z-index: 10;
+    top: 649px;
   }
   
   img.youtube {
@@ -260,4 +252,3 @@ body {
     top: 720px;
     right: 150px;
   }
-  
