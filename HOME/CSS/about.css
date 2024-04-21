@@ -110,9 +110,19 @@ body {
   .abt-head{
     position: absolute;
     left: 630px;
-    font-size: xx-large;
+    font-size: x-large;
     color: whitesmoke;
-    top: 250px;
+    top: 240px;
+    opacity: 70%;
+    text-decoration: underline;
 
+  }
 
+  .intro{
+    position: absolute;
+    left: 630px;
+    font-size: x-large;
+    color: whitesmoke;
+    top: 280px;
+    
   }
