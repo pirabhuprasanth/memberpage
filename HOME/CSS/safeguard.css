@@ -104,4 +104,19 @@ body {
     cursor: pointer;
     z-index: 10;
   }
-  
+  .box {
+    width: 300px;
+    height: 200px;
+    background-color: #307aac;
+    border-radius: 20px; /* Adjust the border radius as needed */
+    padding: 20px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add a box shadow */
+    border: #0013e6;
+  }
+
+  .box p {
+    font-size: 16px;
+    color: #333333; /* Example text color */
+    line-height: 1.5;
+  }

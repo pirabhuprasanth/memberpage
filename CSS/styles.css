@@ -102,7 +102,7 @@ Img.BG {
     font-size: 16px;
     position: relative;
     left: 55px;
-    top: 670px;
+    top: 630px;
     cursor: pointer;
     border-color: white;
     opacity: 1;
@@ -118,7 +118,7 @@ Img.BG {
     padding: 8px 23px;
     border-color: rgb(36, 133, 197);
     position: relative;
-    top: 670px;
+    top: 630px;
     left: 80px;
     cursor: pointer;
     z-index: 10;
