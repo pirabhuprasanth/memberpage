@@ -5,6 +5,7 @@ body {
     background-color: #11507B;
     margin: 0;
     background-repeat: no-repeat;
+    overflow: hidden;
   }
   
   .main-heading {

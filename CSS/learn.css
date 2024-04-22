@@ -19,3 +19,78 @@ Img.BG {
     background-size: cover;
     opacity: 0.3; 
 }
+
+.home a:hover,
+.about a:hover,
+.safeguard a {
+    color: #DDB445; 
+    text-decoration: underline; 
+}
+.home a,
+.about a:hover,
+.safeguard a:hover {
+    color: white; 
+    text-decoration: underline; 
+}  
+  .member-page {
+    position: absolute;
+    cursor: default;
+    top: 90px;
+    left: 170px;
+    font-size: 25px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    z-index: 10;
+    opacity: 1;
+  }
+  
+  
+  img.logo {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 10;
+    opacity: 1;
+  }
+  
+  .home {
+    position: absolute;
+    top: 103px;
+    right: 450px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #DDB445;
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 1;
+    z-index: 10;
+    
+  }
+
+  .about {
+    position: absolute;
+    top: 103px;
+    right: 290px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #DDB445;
+    text-decoration: underline;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .safeguard {
+    position: absolute;
+    top: 103px;
+    right: 130px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #DDB445;
+    text-decoration: underline;
+    cursor: pointer;
+    z-index: 10;
+  }
