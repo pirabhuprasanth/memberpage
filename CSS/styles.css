@@ -102,7 +102,7 @@ Img.BG {
     font-size: 16px;
     position: relative;
     left: 55px;
-    top: 630px;
+    top: 634px;
     cursor: pointer;
     border-color: white;
     opacity: 1;
@@ -118,7 +118,7 @@ Img.BG {
     padding: 8px 23px;
     border-color: rgb(36, 133, 197);
     position: relative;
-    top: 630px;
+    top: 634px;
     left: 80px;
     cursor: pointer;
     z-index: 10;
@@ -176,7 +176,6 @@ Img.BG {
   }
   .white-circle {
     position: absolute;
-    bottom: 36px;
     right: 93px;
     width: 68px;
     height: 68px;
@@ -250,4 +249,136 @@ Img.BG {
     top: 720px;
     right: 150px;
   }
+  @media only screen and (max-device-width: 430px) {
+    body {
+      width: 100%;
+      height: 100%;
+      background-color: #0b3e60;
+      margin: 0;
+      background-repeat: no-repeat;
+      background-size: cover; /* Fit background image to webpage */
+    
+    }
+    Img.BG {
+      position: fixed; /* Ensures the image covers the entire viewport */
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('/img/BG2.jpg'); /* Adjust the path to your background image */
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.3; /* Adjust the opacity as needed */
+    }
+    .search-container{
+     display: hidden;
+    }
+    .main-heading {
+      position: absolute;
+      left: 50px;
+      top: calc(160.3px + 5%);
+      font-size: 50px;
+      opacity: 0.85;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 200;
+      z-index: 10;
+    }
+    .side-heading {
+      color: white;
+      position: absolute;
+      left: 50px;
+      top: calc(650.3px + 5%);
+      font-size: 30px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      z-index: 10;
+      opacity: 1;
+    }
+    .home{
+      display: none;
+    }
+    .about{
+      display:none;
+    }
+    .safeguard{
+      display: none;
+    }
+    .member-page{
+      
+    }
+   img.logo{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 30px;
   
+}
+    .buttonone {
+      font-family: 'Poppins', sans-serif;
+      font-weight: bolder;
+      background-color: #11507B;
+      color: white;
+      padding: 10px 23px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      position: relative;
+      left: 55px;
+      top: 830px;
+      cursor: pointer;
+      border-color: white;
+      opacity: 1;
+      z-index: 10;
+    }
+    
+    .buttontwo {
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      background-color: #cdcdcd;
+      color: rgb(22, 124, 207);
+      padding: 8px 23px;
+      border-color: rgb(36, 133, 197);
+      position: relative;
+      top: 830px;
+      left: 80px;
+      cursor: pointer;
+      z-index: 10;
+    }
+    .white-circle {
+      position: absolute;
+      left: 533px;
+      width: 68px;
+      height: 68px;
+      background-color: white;
+      border-radius: 50%;
+      z-index: 1;
+      top: 820px;
+    }
+    img.circle {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      z-index: 2;
+      left: 536px;
+      z-index: 10;
+      top: 825px;
+    }
+    img.Facebook {
+      position: absolute;
+      width: 37px;
+      height: 37px;
+      z-index: 2;
+      top: 869px;
+      left: 460px;
+     }
+     img.Discord {
+      position: absolute;
+      width: 37px;
+      height: 37px;
+      z-index: 2;
+      top: 810px;
+      left: 460px;
+    }
+
+}

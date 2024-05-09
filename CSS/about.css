@@ -59,21 +59,27 @@ body {
     z-index: 10;
     
   }
-  .home a:hover,
-.about a:hover,
+
+.about a{
+  color: #DDB445;
+  text-decoration: underline;
+}
+
+.about a{
+  color: white;
+  text-decoration: underline;
+}
+  
 .safeguard a {
     color: #DDB445; 
     text-decoration: underline; 
 }
-.home a,
-.about a:hover,
+
 .safeguard a:hover {
     color: white; 
     text-decoration: underline; 
 }
 
-
-  
   .about {
     position: absolute;
     top: 103px;
