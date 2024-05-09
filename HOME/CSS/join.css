@@ -93,7 +93,7 @@ body {
       cursor: pointer;
       z-index: 10;
     }
-    .box1 {
+     .box1 {
       width: 300px;
       height: 200px;
       background-color: #307aac;
@@ -141,4 +141,4 @@ body {
       margin: 50px auto;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add a box shadow */
       border: #0013e6;
-    }
+    } 

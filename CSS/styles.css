@@ -252,3 +252,6 @@ Img.BG {
     top: 720px;
     right: 150px;
   }
+  @media only screen and (max-device-width: 428px) {
+    
+  }
