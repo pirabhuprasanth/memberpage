@@ -137,23 +137,20 @@ Img.BG {
     z-index: 10;
     
   }
-  .home a:hover,
-.about a:hover,
+. a{
+
+}
 .safeguard a {
     color: #DDB445; 
     text-decoration: underline; 
 }
-.home a,
-.about a:hover,
+
 .safeguard a:hover {
     color: white; 
     text-decoration: underline; 
 }
 
-  
-
-  
-  .about {
+ .about {
     position: absolute;
     top: 103px;
     right: 290px;
@@ -164,6 +161,7 @@ Img.BG {
     cursor: pointer;
     z-index: 10;
   }
+
   
   .safeguard {
     position: absolute;
@@ -252,6 +250,4 @@ Img.BG {
     top: 720px;
     right: 150px;
   }
-  @media only screen and (max-device-width: 428px) {
-    
-  }
+  
