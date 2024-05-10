@@ -257,7 +257,6 @@ Img.BG {
       margin: 0;
       background-repeat: no-repeat;
       background-size: cover; /* Fit background image to webpage */
-    
     }
     Img.BG {
       position: fixed; /* Ensures the image covers the entire viewport */
