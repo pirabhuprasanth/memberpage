@@ -249,12 +249,12 @@ Img.BG {
   @media only screen and (max-device-width: 430px) {
     body {
       width: 100%;
-      height: 932px;
+      height: 100%;
       background-color: #0b3e60;
       margin: 0;
       background-repeat: no-repeat;
       background-size: cover; /* Fit background image to webpage */
-      
+      overflow-y: hidden;
     }
     Img.BG {
       position: fixed; /* Ensures the image covers the entire viewport */

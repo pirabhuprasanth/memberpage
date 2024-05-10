@@ -130,6 +130,7 @@ body {
     font-size: x-large;
     color: whitesmoke;
     top: 280px;
+    padding-bottom: 2%;
     
   }
   @media only screen and (max-device-width: 430px)
@@ -194,4 +195,12 @@ body {
     height: 50px;
     width: 50px;
     margin-bottom: 30px;
+  }
+  .intro{
+    position: absolute;
+    left: 630px;
+    font-size: x-large;
+    color: whitesmoke;
+    top: 280px;
+    right: 30px;
   }
